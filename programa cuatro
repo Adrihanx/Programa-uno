@@ -1,0 +1,24 @@
+    public static void main(String[] args) {
+        int proma=0,promb=0;
+        Random random = new Random();
+        int[] a = new int[50];
+        int[] b = new int[50];
+        for (int i = 0; i < a.length; i++) {
+            a[i]=random.nextInt();
+            System.out.println(i+" = "+a[i]);
+            proma=+a[i];
+        }
+        proma=proma/a.length;
+        for (int i = 0; i < b.length; i++) {
+            b[i]=random.nextInt();
+            System.out.println(i+" = "+b[i]);
+            promb=+b[i];
+        }
+        promb=promb/b.length;
+        if (promb>proma) {
+            System.out.println("el primer array es más grande");
+        }
+        else if (proma>promb) {
+            System.out.println("el segundo array es más grande");
+        }
+    }
