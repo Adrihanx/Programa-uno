@@ -1,0 +1,13 @@
+public class tarea3_6 {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int[]a = new int[10];
+        for (int i = 0; i < a.length; i++) {
+            a[i]= random.nextInt();
+            System.out.println(i+" = "+a[i]);
+        }
+        for (int j = a.length-1; j >= 0; j--) {
+            System.out.println(j+" = "+a[j]);
+        }
+    }
+}
