@@ -1,0 +1,16 @@
+    public static void main(String[] args) {
+        int cont=0;
+        Random random = new Random();
+        int[] b = new int[20];
+        for (int i = 0; i < 10; i++) {
+            b[i]=random.nextInt();
+            System.out.println(i+" = "+b[i]);
+        }
+        int a = Integer.parseInt(JOptionPane.showInputDialog(null, "Dame un valor que buscar"));
+        for (int i = 0; i < b.length; i++) {
+            if (b[i]==a) {
+                cont++;
+            }
+        }
+        System.out.println("la cantidad de veces que se repite es:"+cont);
+    }
