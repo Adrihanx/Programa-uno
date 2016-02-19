@@ -1,0 +1,60 @@
+    public static void main(String[] args) {
+        String[] libros = new String[50];
+        libros[0]="El diario de Ana Frank";
+        libros[1]="Matar a un ruiseñor";
+        libros[2]="Orgullo y prejuicio";
+        libros[3]="1984";
+        libros[4]="El señor de los anillos";
+        libros[5]="El Gran Gatsby";
+        libros[6]="La telaraña de Charlotte";
+        libros[7]="El Hobbit";
+        libros[8]="Mujercitas";
+        libros[9]="Fahrenheit 451";
+        libros[10]="Jane Eyre";
+        libros[11]="Lo que el viento se llevó";
+        libros[12]="Rebelión en la Granja";
+        libros[13]="El guardián entre el centeno";
+        libros[14]="Las aventuras de Huckleberry Finn";
+        libros[15]="The Help";
+        libros[16]="Las crónicas de Narnia, El león, la bruja y el armario";
+        libros[17]="Las uvas de la ira";
+        libros[18]="La ladrona de libros";
+        libros[19]="Cometas en el cielo";
+        libros[20]="El Señor de las moscas";
+        libros[21]="Noche";
+        libros[22]="Hamlet";
+        libros[23]="Una arruga en el tiempo";
+        libros[24]="Historia de dos ciudades";
+        libros[25]="Guía del viajero intergaláctico";
+        libros[26]="Pedro Páramo";
+        libros[27]="Otra vuelta de tuerca";
+        libros[28]="El jardín secreto";
+        libros[29]="Romeo y Julieta";
+        libros[30]="El principito";
+        libros[31]="El almuerzo desnudo";
+        libros[32]="Tenemos que hablar de Kevin";
+        libros[33]="Ensayo sobre la ceguera";
+        libros[34]="Réquiem por un sueño";
+        libros[35]="La carretera";
+        libros[36]="American Psycho";
+        libros[37]="Los 120 días de Sodoma";
+        libros[38]="Los diarios de Turner";
+        libros[39]="A sangre fría";
+        libros[40]="No tengo boca y debo gritar";
+        libros[41]="Penpal";
+        libros[42]="El Gran dios Pan";
+        libros[43]="La chica de al lado";
+        libros[44]="Horror en Amityville";
+        libros[45]="Otra vuelta de tuerca";
+        libros[46]="It";
+        libros[47]="El bebé de Rosemary";
+        libros[48]="En las montañas de la locura";
+        libros[49]="El jardín secreto";
+        
+        String busqueda = JOptionPane.showInputDialog(null, "Soy la biblioteca, que libro deseas buscar:");
+        
+        for (int i = 0; i < libros.length; i++) {
+            if (busqueda.equals(libros[i])) {
+                System.out.println("el libro es: "+busqueda);
+                System.out.println("el libro está en la posición"+i);
+        }
