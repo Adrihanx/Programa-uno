@@ -1,2 +1,2 @@
 # Programa-uno
- Leer un vector de dimensión 50 y contar el número de elementos  mayores al promedio
+ El contenido aquí colocado solo es para información, cualquier mal uso que se le puede dar, es resposabilidad de los terceros.
